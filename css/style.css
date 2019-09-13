@@ -14,51 +14,67 @@ body {
     line-height: 135%;
 }
 
+#left {float: left;}
+#social {float: right;}
+
 a {
     color: #c98484;
     text-decoration: none;
-    transition: all.6s ease;
+    /*transition: all.6s ease;
     -moz-transition: all.6s ease;
     -webkit-transition: all.6s ease;
-    -ms-translation: all.6s ease;
+    -ms-translation: all.6s ease;*/
 }
 
 a:hover{
     color: #e00000;
     text-decoration: none;
-    transition: all.6s ease;
+    /*transition: all.6s ease;
     -moz-transition: all.6s ease;
     -webkit-transition: all.6s ease;
-    -ms-translation: all.6s ease;
+    -ms-translation: all.6s ease;*/
 }
 
-a:active{
-    color: #ff9900;
+a:active{color: #ff9900;}
+
+#logo {
+    font-size: 2em;
+    font-family: Comic Sans MS, sans-serif;
+    color: #a53b3b;
+}
+
+#contact {
+    font-size: 1.5em;
+    font-family: Comic Sans MS, sans-serif;
+    margin-left: 10px;
 }
 
 img {
     max-height: 100%;
-    height: auto;
+    height: auto;    
     width: auto/9;
 }
 
 /* Блок для цвета выделения текста курсором */
-::selection {background: #be915b; color: rgb(91, 31, 31)}
-::-moz-selection {background: #be915b; color: rgb(91, 31, 31)}
+::selection {background: #be915b; color: rgb(255, 255, 255)}
+::-moz-selection {background: #be915b; color: rgb(255, 255, 255)}
 
 
 
 header, footer {
-    width: 100%;
+    width: 98%;
     background-color: #fff;
-    min-height: 50px;
+    /*min-height: 50px;*/
 }
 
 header {
     border-bottom: 2px solid silver;
+    padding: 1%
 }
 
 footer {
     border-top: 2px solid silver;
+    padding: 1%;
     margin-top: 10px;
+    padding-bottom: 2%;
 }
